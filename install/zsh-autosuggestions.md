@@ -14,4 +14,3 @@ plugins=(
     zsh-autosuggestions
 )
 ```
-

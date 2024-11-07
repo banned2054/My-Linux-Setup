@@ -3,11 +3,11 @@
 
 ## Oh-My-Zsh
 
--   [Oh-My-Zsh GitHub Repository](https://github.com/ohmyzsh/ohmyzsh) 
+-   [Oh-My-Zsh](https://github.com/banned2054/My-Linux-Setup/blob/main/install/Oh-My-Zsh.md) 
 -   Commonly used plugins:  
 
-    -   [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-    -   [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    -   [zsh-autosuggestions](https://github.com/banned2054/My-Linux-Setup/blob/main/install/zsh-autosuggestions.md)
+    -   [zsh-syntax-highlighting](https://github.com/banned2054/My-Linux-Setup/blob/main/install/zsh-syntax-highlighting.md)
 
 ## Vim 
 
