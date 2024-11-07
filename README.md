@@ -14,6 +14,7 @@
 -   [Vim GitHub Repository](https://github.com/vim/vim)
 -   Commonly used themes:
     -   [monokai](https://github.com/ku1ik/vim-monokai)
+        -   [download url](https://raw.githubusercontent.com/ku1ik/vim-monokai/refs/heads/master/colors/monokai.vim)
 
 ## Other Tools 
 
