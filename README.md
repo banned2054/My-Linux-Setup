@@ -65,9 +65,7 @@ source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## Vim 
 
-### Theme
-
-[monokai](https://github.com/ku1ik/vim-monokai)
+### [Theme-monokai](https://github.com/ku1ik/vim-monokai)
 
 -   Download the theme file
 
