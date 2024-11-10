@@ -15,38 +15,38 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 -   Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
-    ```bash
+```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
+```
 
 -   Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
-    ```
-    plugins=( 
-    # other plugins...
-    zsh-autosuggestions
-    )
-    ```
+```
+plugins=( 
+# other plugins...
+zsh-autosuggestions
+)
+```
 
 #### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 -   Simply clone this repository and source the script:
 
-    ```bash
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
-    ```
+```
 
 -   Add the following line to automatically enable syntax highlighting in every session:
 
-    ```bash
+```bash
 echo "source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-~}/.zshrc
-    ```
+```
 
 -   Then, enable syntax highlighting in the current interactive shell:
 
-    ```bash
-    source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    ```
+```bash
+source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
 
 ## Vim 
 
