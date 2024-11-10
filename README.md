@@ -1,8 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
-
 -   [My-Linux-Setup](#my-linux-setup)
     -   [Oh-My-Zsh](#oh-my-zsh)
         -   [Install](#install)
@@ -11,6 +9,9 @@
             -   [zsh-syntax-highlighting](#zsh-syntax-highlighting)
     -   [Vim](#vim)
         -   [Theme-monokai](#theme-monokai)
+    -   [Linux Mirrors](#linux-mirrors)
+        -   [Update Source](#update-source)
+        -   [Docker Install/Replace Source](#docker-installreplace-source)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -79,4 +80,18 @@ curl -fLo ~/.vim/colors/monokai.vim --create-dirs https://raw.githubusercontent.
 
 ```bash
 echo -e "\nsyntax enable\ncolorscheme monokai" >> ~/.vimrc
+```
+
+## [Linux Mirrors](https://github.com/SuperManito/LinuxMirrors)
+
+### Update Source
+
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/main.sh)
+```
+
+### Docker Install/Replace Source
+
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 ```
