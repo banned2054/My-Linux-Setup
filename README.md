@@ -9,6 +9,7 @@
             -   [zsh-syntax-highlighting](#zsh-syntax-highlighting)
     -   [Vim](#vim)
         -   [Theme-monokai](#theme-monokai)
+        -   [Set tab width](#set-tab-width)
     -   [Linux Mirrors](#linux-mirrors)
         -   [Update Source](#update-source)
         -   [Docker Install/Replace Source](#docker-installreplace-source)
@@ -80,6 +81,12 @@ curl -fLo ~/.vim/colors/monokai.vim --create-dirs https://raw.githubusercontent.
 
 ```bash
 echo -e "\nsyntax enable\ncolorscheme monokai" >> ~/.vimrc
+```
+
+### Set tab width
+
+```bash
+echo -e "set tabstop=4\nset shiftwidth=4\nset expandtab" >> ~/.vimrc
 ```
 
 ## [Linux Mirrors](https://github.com/SuperManito/LinuxMirrors)
