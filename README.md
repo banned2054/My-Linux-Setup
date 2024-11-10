@@ -9,7 +9,7 @@
       - [zsh-autosuggestions](#zsh-autosuggestions)
       - [zsh-syntax-highlighting](#zsh-syntax-highlighting)
   - [Vim](#vim)
-    - [Theme](#theme)
+    - [Theme-monokai](#theme-monokai)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
