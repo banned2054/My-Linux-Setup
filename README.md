@@ -1,20 +1,22 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [My-Linux-Setup](#my-linux-setup)
-  - [Oh-My-Zsh](#oh-my-zsh)
-    - [Install](#install)
-    - [Plugins](#plugins)
-      - [zsh-autosuggestions](#zsh-autosuggestions)
-      - [zsh-syntax-highlighting](#zsh-syntax-highlighting)
-  - [Vim](#vim)
-    - [Theme-monokai](#theme-monokai)
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+
+-   [My-Linux-Setup](#my-linux-setup)
+    -   [Oh-My-Zsh](#oh-my-zsh)
+        -   [Install](#install)
+        -   [Plugins](#plugins)
+            -   [zsh-autosuggestions](#zsh-autosuggestions)
+            -   [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+    -   [Vim](#vim)
+        -   [Theme-monokai](#theme-monokai)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # My-Linux-Setup
- 惯用linux的工具和其对应的github仓库
+
+惯用 linux 的工具和其对应的 github 仓库
 
 ## [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
@@ -37,7 +39,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 -   Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
 ```
-plugins=( 
+plugins=(
 # other plugins...
 zsh-autosuggestions
 )
@@ -63,7 +65,7 @@ echo "source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlightin
 source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-## Vim 
+## Vim
 
 ### [Theme-monokai](https://github.com/ku1ik/vim-monokai)
 
@@ -78,4 +80,3 @@ curl -fLo ~/.vim/colors/monokai.vim --create-dirs https://raw.githubusercontent.
 ```bash
 echo -e "\nsyntax enable\ncolorscheme monokai" >> ~/.vimrc
 ```
-
