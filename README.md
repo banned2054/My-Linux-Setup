@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [My-Linux-Setup](#my-linux-setup)
+  - [Oh-My-Zsh](#oh-my-zsh)
+    - [Install](#install)
+    - [Plugins](#plugins)
+      - [zsh-autosuggestions](#zsh-autosuggestions)
+      - [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+  - [Vim](#vim)
+    - [Theme](#theme)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # My-Linux-Setup
  惯用linux的工具和其对应的github仓库
 
