@@ -99,3 +99,15 @@ bash <(curl -sSL https://linuxmirrors.cn/main.sh)
 ```bash
 bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 ```
+
+## Docker
+
+更换源
+```bash
+bash <(curl -sSL https://gitee.com/xjxjin/scripts/raw/main/check_docker_registry.sh)
+```
+
+```bash
+bash <(curl -sSL https://github.com/xjxjin/scripts/raw/main/check_docker_registry.sh)
+```
+
