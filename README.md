@@ -13,6 +13,10 @@
   - [更新源](#%E6%9B%B4%E6%96%B0%E6%BA%90)
   - [安装Docker](#%E5%AE%89%E8%A3%85docker)
 - [Docker](#docker)
+  - [更换源](#%E6%9B%B4%E6%8D%A2%E6%BA%90)
+- [Markdown](#markdown)
+  - [安装目录生成工具](#%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7)
+  - [生成目录](#%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -103,12 +107,27 @@ bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 
 ## Docker
 
-更换源
+### 更换源
+
 ```bash
 bash <(curl -sSL https://gitee.com/xjxjin/scripts/raw/main/check_docker_registry.sh)
 ```
 
 ```bash
 bash <(curl -sSL https://github.com/xjxjin/scripts/raw/main/check_docker_registry.sh)
+```
+
+## Markdown
+
+### 安装目录生成工具
+
+```bash
+npm install -g doctoc
+```
+
+### 生成目录
+
+```bash
+doctoc xxx.md
 ```
 
