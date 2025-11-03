@@ -109,9 +109,17 @@ bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 
 ### 更换源
 
+国内
+
 ```bash
 bash <(curl -sSL https://gitee.com/xjxjin/scripts/raw/main/check_docker_registry.sh)
 ```
+
+```bash
+curl -sSL https://gitee.com/xjxjin/scripts/raw/main/check_docker_registry.sh | sudo bash
+```
+
+境外
 
 ```bash
 bash <(curl -sSL https://github.com/xjxjin/scripts/raw/main/check_docker_registry.sh)
